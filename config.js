@@ -1,13 +1,13 @@
 define({
-  "dataPath": "http://map.ffgek.de/data/",
-  "siteName": "Freifunk Gelsenkirchen",
+  "dataPath": "http://map.gl.wupper.freifunk-rheinland.net/data/",
+  "siteName": "Freifunk gl.wupper",
   "mapSigmaScale": 0.5,
-  "showContact": false,
+  "showContact": true,
   "maxAge": 7,
   "nodeInfos": [
     { "name": "Statistik",
-      "href": "http://map.ffgek.de/data/nodes/{NODE_ID}.png",
-      "thumbnail": "http://map.ffgek.de/data/nodes/{NODE_ID}.png",
+      "href": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/{NODE_ID}.png",
+      "thumbnail": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/{NODE_ID}.png",
       "caption": "Knoten {NODE_ID}"
     }
   ],
@@ -24,8 +24,8 @@ define({
   ],
   "globalInfos": [
     { "name": "Wochenstatistik",
-      "href": "http://map.ffgek.de/data/nodes/globalGraph.png",
-      "thumbnail": "http://map.ffgek.de/data/nodes/globalGraph.png",
+      "href": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/globalGraph.png",
+      "thumbnail": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/globalGraph.png",
       "caption": "Bild mit Wochenstatistik"
     }
   ]
