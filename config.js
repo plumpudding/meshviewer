@@ -28,5 +28,16 @@ define({
       "thumbnail": "http://map.gl.wupper.freifunk-rheinland.net/data/nodes/globalGraph.png",
       "caption": "Bild mit Wochenstatistik"
     }
+  ],
+  "siteNames": [
+    { "site": "ffgl-bcd", "name": "Burscheid" },
+    { "site": "ffgl-bgl", "name": "Bergisch Gladbach" },
+    { "site": "ffgl-cgn", "name": "Rechtsrheinisch-Köln" },
+    { "site": "ffgl-kut", "name": "Kürten" },
+    { "site": "ffgl-lgn", "name": "Langenfeld" },
+    { "site": "ffgl-lln", "name": "Leichlingen" },
+    { "site": "ffgl-ode", "name": "Odenthal" },
+    { "site": "ffgl-ovr", "name": "Overath" },
+    { "site": "ffgl-rrh", "name": "Rösrath" }
   ]
 })
