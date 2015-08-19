@@ -2,9 +2,17 @@
   paint-order: stroke;
 }
 
+.pick-location {
+  cursor: crosshair;
+}
+
 .map {
   width: 100%;
   height: 100%;
+
+  button.location-picker:after {
+    content:'\f2a6';
+  }
 
  .node-alert {
     -webkit-animation: blink 2s linear;
