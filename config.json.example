@@ -3,7 +3,10 @@
   "siteName": "Freifunk Lübeck",
   "mapSigmaScale": 0.5,
   "showContact": true,
+  "showCoordinate": false,
   "maxAge": 14,
+  "maxAgeNew": 14,
+  "maxAgeOffline": 7,
   "mapLayers": [
     { "name": "MapQuest",
       "url": "https://otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
