@@ -4,6 +4,7 @@
   "mapSigmaScale": 0.5,
   "showContact": true,
   "maxAge": 14,
+	"chooseGateway":true,
   "mapLayers": [
     { "name": "MapQuest",
       "url": "https://otile{s}-s.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.jpg",
