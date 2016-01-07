@@ -16,6 +16,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-eslint": "^10.0.0",
     "grunt-bower-install-simple": "^1.1.2",
+    "grunt-gh-pages": "^1.0.0",
     "grunt-git-describe": "^2.3.2"
   },
   "eslintConfig": {
