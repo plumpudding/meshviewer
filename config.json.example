@@ -31,6 +31,22 @@
     { "site": "ffgl-ovr", "name": "Overath" },
     { "site": "ffgl-rrh", "name": "Rösrath" },
     { "site": "ffdus", "name": "Flingern" }
+  ],
+  "nodeCharts": [
+    {
+      "name": "Statistik",
+      "data": {
+        "url": "http://137.226.33.62:8002/render",
+        "parameters": [
+          "format=json",
+          "from=-###ZOOM_FROM###",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.clientcount,\"###ZOOM_INTERVAL###\",\"max\"),\"clients\")",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.loadavg,\"###ZOOM_INTERVAL###\",\"avg\"),\"load\")",
+          "target=alias(summarize(freifunk.nodes-legacy.###NODE_ID###.uptime,\"###ZOOM_INTERVAL###\",\"last\"),\"uptime\")"
+        ]
+      },
+      "quirks": [ "id_to_mac" ]
+    }
   ]
 }
 
